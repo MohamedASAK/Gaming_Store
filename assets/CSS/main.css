@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgba(56, 60, 76, 0.915);
+}
+.nav_bar{
+    width: 100%;
+    height: 120px;
+    float: right;
+    background-color: rgba(56, 60, 76, 0.979);
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.nav_bar .navName{
+    padding: 0;
+    margin: 0;
+    color: whitesmoke;
+}
+.nav_bar .navName .navIcon{  
+    float: left;   
+}
+.nav_bar .navName .navIcon img{
+    width: 120px;
+    height: 80px;
+    margin: 15px;
+    padding: 0px;
+}
+.navclick{
+    float: right;
+    text-align: center;
+    list-style: none;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.4s;
+    margin: 20px;
+    padding: 10px;
+    width: 200px;
+}
+.nav_bar .navName li:hover{
+    background-color: rgba(255, 255, 255, 0.153);
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+}
+.heading{
+    text-align: center;
+    padding-top: 135px;
+    padding-bottom: 10px;
+}
+.heading .welcome{
+    color: rgb(255, 255, 255);
+    text-decoration: underline dashed red;
+}
+h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+}
+.product-Img{
+    width: 100%;
+    height: 450px;
+    border-radius: 15px;
+}
+.product-Name{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p{
+    color: rgba(245, 245, 245, 0.919);
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+}
+button{
+    background-color: rgb(193, 191, 216);
+    color: black; 
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    padding: 5px;
+    margin: 5px;
+    width: 200px;
+    border-radius: 15px;
+}
+button:hover{
+    background-color: rgba(4, 117, 255, 0.153);
+    color: white;
+}
+.product-Item{
+    width: 22.36%;
+    height: auto;
+    background-color: rgb(97, 103, 148);
+    text-align: center;
+    float: left;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 10px 10px 5px rgb(39, 39, 39);
+}
